@@ -13,4 +13,10 @@ keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- カットした文字をレジスタに保存しないようにする
-keymap.set("n", "x", '"_x')
+-- keymap.set("n", "x", '"_x')
+
+keymap.set("n", "<C-h>", ":TmuxNavigateLeft<CR>", { noremap = true, silent = true })
+keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", { noremap = true, silent = true })
+keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", { noremap = true, silent = true })
+keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", { noremap = true, silent = true })
+keymap.set("n", "<C-//>", ":TmuxNavigatePrevious<CR>", { noremap = true, silent = true })

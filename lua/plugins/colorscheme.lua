@@ -6,13 +6,19 @@ return {
   -- { "folke/tokyonight.nvim", lazy = true, opts = { style = "night" } },
 
   -- add mosel
-  { "Domeee/mosel.nvim" },
+  -- { "Domeee/mosel.nvim" },
+
+  -- Iceberg
+  { "cocopon/iceberg.vim" },
+
+  -- nord
+  -- { "shaunsingh/nord.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "mosel",
+      colorscheme = "iceberg",
     },
   },
 }
