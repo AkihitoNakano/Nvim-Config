@@ -8,11 +8,17 @@ return {
   -- add mosel
   -- { "Domeee/mosel.nvim" },
 
-  -- Iceberg
+  -- Iceberg, scheme="iceberg"
   { "cocopon/iceberg.vim" },
 
   -- nord
   -- { "shaunsingh/nord.nvim" },
+
+  -- kyoto night
+  -- { "voidekh/kyotonight.vim" },
+
+  -- gruvbox
+  -- { "morhetz/gruvbox" },
 
   -- Configure LazyVim to load gruvbox
   {
